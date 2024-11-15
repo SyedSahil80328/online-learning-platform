@@ -56,7 +56,7 @@ const Login = () => {
       <>
          <Navbar expand="lg" className="bg-body-tertiary">
             <Container fluid>
-               <Navbar.Brand><h2>Study App</h2></Navbar.Brand>
+               <Navbar.Brand><h2>EduSpark</h2></Navbar.Brand>
                <Navbar.Toggle aria-controls="navbarScroll" />
                <Navbar.Collapse id="navbarScroll">
                   <Nav
@@ -131,7 +131,7 @@ const Login = () => {
                         </Button>
                      </Box>
                      <Grid container>
-                        <Grid item>Have an account?
+                        <Grid item>Don't have an account?
                            <Link style={{ color: "blue" }} to={'/register'} variant="body2">
                               {" Sign Up"}
                            </Link>

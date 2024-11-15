@@ -129,7 +129,7 @@ const AddCourse = () => {
                   <Form.Control name='C_educator' value={addCourse.C_educator} onChange={handleChange} type="text" placeholder="Enter Course Educator" required />
                </Form.Group>
                <Form.Group as={Col} controlId="formGridTitle">
-                  <Form.Label>Course Price(Rs.)</Form.Label>
+                  <Form.Label>Course Price (Rs.)</Form.Label>
                   <Form.Control name='C_price' value={addCourse.C_price} onChange={handleChange} type="text" placeholder="for free course, enter 0" required />
                </Form.Group>
                <Form.Group as={Col} className="mb-3" controlId="formGridAddress2">
@@ -160,7 +160,7 @@ const AddCourse = () => {
                         />
                      </Form.Group>
                      <Form.Group as={Col} controlId="formGridContent">
-                        <Form.Label>Section Content (Video or Image)</Form.Label>
+                        <Form.Label>Section Content (Video File)</Form.Label>
                         <Form.Control
                            name={`S_content`}
                            onChange={(e) => handleChangeSection(index, e)}

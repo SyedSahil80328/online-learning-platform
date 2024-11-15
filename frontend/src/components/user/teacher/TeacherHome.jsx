@@ -86,7 +86,7 @@ const TeacherHome = () => {
                         <p>
                            <strong>Sections: </strong> {course.sections.length}
                         </p>
-                        <p style={{color: '#c3b9b9'}}>
+                        <p>
                            <strong>Enrolled students: </strong> {course.enrolled}
                         </p>
                      </Card.Text>

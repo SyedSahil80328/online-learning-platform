@@ -94,10 +94,10 @@ const AllCourses = () => {
    return (
       <>
          <div className=" mt-4 filter-container text-center">
-            <p className="mt-3">Serach By: </p>
+            <p className="mt-3">Search By : </p>
             <input
                type="text"
-               placeholder="title"
+               placeholder="Title"
                value={filterTitle}
                onChange={(e) => setFilterTitle(e.target.value)}
             />

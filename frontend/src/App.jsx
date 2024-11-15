@@ -56,7 +56,7 @@ function App() {
           </div>
           <footer className="bg-light text-center text-lg-start">
             <div className="text-center p-3">
-              © {date} Copyright: Study App
+              © {date} Copyright : EduSpark Inc.
             </div>
           </footer>
         </Router>
